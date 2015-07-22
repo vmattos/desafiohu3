@@ -28,4 +28,4 @@ Esses comandos tem que ser o suficiente para configurar meu mac os x OU ubuntu e
 ***Observações***
 * O desafio somente será avaliado caso todas as restrições tenham sido respeitadas.
 
-****Boa sorte ;)****
+***Boa sorte ;)***
