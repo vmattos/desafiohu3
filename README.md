@@ -3,6 +3,8 @@ offer-page-hu [![Build Status](https://travis-ci.org/vmattos/offer-page-hu.svg?b
 
 Utilize os seguintes comandos para rodar o projeto:
 
+`npm install` Instala as dependências
+
 `npm run start` Roda o servidor de desenvolvimento
 
 `npm run test` Roda os testes
