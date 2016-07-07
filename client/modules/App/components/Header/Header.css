@@ -1,0 +1,37 @@
+.header {
+  background: #eee url('./images/header-banner.jpg') center;
+  background-size: cover;
+  border-bottom: 1px solid #ccc;
+  min-height: 200px;
+  display: block;
+}
+
+.language-switcher {
+  /*
+   * Feature toggle
+   * should display when we have more langs
+   */
+  display: none;
+}
+
+.content {
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+  padding: 64px 16px;
+  overflow: auto;
+  text-indent: -9999px;
+}
+
+@media (width <= 606px) {
+  .header {
+    min-height: 0;
+    height: 200px;
+  }
+}
+
+@media (width <= 400px) {
+  .header {
+    height: 155px;
+  }
+}

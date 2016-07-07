@@ -1,0 +1,14 @@
+.Option {
+  border: 1px solid #bbb;
+  margin-bottom: 20px;
+}
+
+.Option:hover {
+  border-color: orange;
+}
+
+@media (width >= 992px) {
+  .Option {
+    display: flex;
+  }
+}

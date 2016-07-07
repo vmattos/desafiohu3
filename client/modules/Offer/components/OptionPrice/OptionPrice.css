@@ -1,0 +1,37 @@
+.Section {
+  text-align: center;
+  margin-bottom: 20px;
+
+  & p {
+    color: #666;
+    font-size: 0.9em;
+  }
+}
+
+.PriceTag {
+  display: block;
+  color: #222;
+}
+
+.Value {
+  font-size: 1.9em;
+}
+
+.Confirm {
+  text-transform: uppercase;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-size: 0.9em;
+  padding: 4px 20px;
+}
+
+.Confirm:hover {
+  cursor: pointer;
+}
+
+@media (width >= 992px) {
+  .Section {
+    margin-top: 20px;
+  }
+}

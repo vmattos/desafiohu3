@@ -1,0 +1,28 @@
+.Dailies {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.Description {
+  font-size: 0.7em;
+}
+
+@media (width >= 768px) {
+  .Section {
+    text-align: center;
+  }
+}
+
+@media (width >= 992px) {
+  .Column {
+    border-right: 1px solid #ccc;
+  }
+
+  .Section {
+    margin-top: 20px;
+
+    & span {
+      display: block;
+    }
+  }
+}
